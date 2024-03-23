@@ -17,4 +17,32 @@ do {
     System.out.println("Nota inválida. Inserir valor válido:");
 
 }
-    
+
+
+2-  import java.util.Scanner;
+
+public static void main(String[] args) {
+Scanner = new Scanner
+while
+System.out.print("Digite o numero do usuario:");
+String nomeUsuario = scanner.nextline();
+System.out.print("Digite a senha:");
+String senha = scanner.nextLine();
+if(senha.equals(nomeUsuario)) {
+System.out.println("Erro: A senha nao pode ser igual usuario");
+else {
+System.out.println(Usuario e senha registrados")
+break;
+
+
+
+3- import java.util.Scanner;
+public class Main{
+public static void main(String[] args {
+Scanner scanner = new Scanner(System.in);
+
+
+
+
+
+
