@@ -1,4 +1,8 @@
-import java.util.Scanner;
+
+Exercícios em Java:
+
+
+1- import java.util.Scanner;
 public class Main {
 public static void main(String[] args);
 double nota;
@@ -7,4 +11,10 @@ do {
     System.out.print("Digite uma nota entre zero e dez:");
     nota = scanner.nextDouble();
 
-    if nota < 0 
+    if (nota>= 0 && nota <= 10) {
+    System.out.println("Nota válida:" +nota);
+    else{
+    System.out.println("Nota inválida. Inserir valor válido:");
+
+}
+    
